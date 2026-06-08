@@ -1,45 +1,104 @@
- Password Strength Evaluation
-Objective
+# Password Strength Evaluation Report
 
-The purpose of this task is to understand how password complexity affects security and to evaluate different passwords using an online Password Strength Testing Tool.
+## Objective
 
-Tools Used
-Password Strength Testing Tool
-Web Browser
-Passwords Tested
-Password	Strength Rating	Estimated Crack Time
-123456	Very Weak	Less Than A Second
-Pushpendra123	Good	1 Year
-Push@2026	Weak	8 Hours
-P#sh2026!Cyber	Good	32 Years
-T!g3r$Sky#2026@Secure	Strong	Centuries
-Screenshots
-1. Very Weak Password
+The purpose of this task is to understand how password complexity affects security and to evaluate different passwords using an online Password Strength Testing Tool. This report demonstrates how different password patterns influence password strength, crack time, and overall cybersecurity protection.
 
-Password: 123456
+---
 
-Result: Very Weak
+## Tools Used
 
-2. Good Password
+* Password Strength Testing Tool
+* Web Browser
 
-Password: Pushpendra123
+---
 
-Result: Good
+# Passwords Tested
 
-3. Weak Password
+| Password                 | Strength Rating | Estimated Crack Time |
+| ------------------------ | --------------- | -------------------- |
+| anil123                  | Very Weak       | Less Than A Second   |
+| AnilAgency2026           | Moderate        | Several Months       |
+| Anil@2026                | Weak            | Few Hours            |
+| A#nil2026!Cyber          | Good            | 45 Years             |
+| A!nil$Secure#2026@Agency | Strong          | Centuries            |
 
-Password: Push@2026
+---
 
-Result: Weak
+# Screenshots
 
-4. Good Password
+## 1. Very Weak Password
 
-Password: P#sh2026!Cyber
+**Password:** `anil123`
 
-Result: Good
+**Result:** Very Weak
 
-5. Strong Password
+---
 
-Password: T!g3r$Sky#2026@Secure
+## 2. Moderate Password
 
-Result: Strong
+**Password:** `AnilAgency2026`
+
+**Result:** Moderate
+
+---
+
+## 3. Weak Password
+
+**Password:** `Anil@2026`
+
+**Result:** Weak
+
+---
+
+## 4. Good Password
+
+**Password:** `A#nil2026!Cyber`
+
+**Result:** Good
+
+---
+
+## 5. Strong Password
+
+**Password:** `A!nil$Secure#2026@Agency`
+
+**Result:** Strong
+
+---
+
+# Analysis
+
+### Factors That Improve Password Strength
+
+* Use of uppercase and lowercase letters
+* Inclusion of numbers
+* Use of special characters (`@`, `#`, `$`, `!`)
+* Increased password length
+* Avoiding common words and predictable patterns
+
+---
+
+# Common Password Attacks
+
+* **Brute Force Attack** – Tries every possible password combination.
+* **Dictionary Attack** – Uses common words and leaked passwords.
+* **Credential Stuffing** – Uses stolen passwords from previous data breaches.
+* **Phishing** – Tricks users into revealing passwords.
+
+---
+
+# Best Practices for Strong Passwords
+
+* Use passwords with at least 12–16 characters
+* Mix uppercase, lowercase, numbers, and symbols
+* Avoid personal information such as names or birth dates
+* Use unique passwords for every account
+* Enable Multi-Factor Authentication (MFA)
+* Use a trusted password manager
+
+---
+
+# Conclusion
+
+This task demonstrated how password complexity directly affects cybersecurity strength. Simple passwords can be cracked instantly, while strong and complex passwords significantly increase protection against cyber attacks. Using long and unique passwords with mixed characters is essential for maintaining account security.
